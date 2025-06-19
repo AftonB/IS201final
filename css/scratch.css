@@ -1,0 +1,83 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #002244;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(239, 244, 240);
+ 
+}
+
+h1 {
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.centered-list {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto 20px auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.emphasizedText {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+img {
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    color: #f7dc16;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: dashed;
+}
+
+.background{
+    background-image: url('../assets/img/Rock\ and\ Roll.jpg');
+    background-size: 75%;
+    background-position: center;
+
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.left-link {
+      position: fixed;
+      left: 20px;
+      top: 20px;
+    }
+
+    .right-link {
+      position:fixed;
+      right: 20px;
+      top: 20px;
+    }
+
+    .tableau-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tableau-container object {
+    width: 100%;         /* Make the object stretch to fill the container width */
+    max-width: 1600px;   /* Increase the max-width to make it wider */
+    height: 500px;       /* Fixed height */
+}
+
+
+    
+    
